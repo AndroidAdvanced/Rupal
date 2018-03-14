@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rupalpractical.ShowOrderActivity"
+    tools:showIn="@layout/activity_show_order">
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order Details"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="client name"
+        app:layout_constraintTop_toBottomOf="@+id/txtText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="client gender"
+        app:layout_constraintTop_toBottomOf="@+id/txtName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/txtBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="client birthdate"
+        app:layout_constraintTop_toBottomOf="@+id/txtGender"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="client Category Choosen"
+        app:layout_constraintTop_toBottomOf="@+id/txtBirthDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtSubCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="client subcategory choosen"
+        app:layout_constraintTop_toBottomOf="@+id/txtCategory"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

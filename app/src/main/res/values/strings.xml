@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RupalPractical</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gender">GenderActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_sub_category">SubCategoryActivity</string>
+    <string name="title_activity_show_order">ShowOrderActivity</string>
+    <string name="title_activity_date_picker">DatePickerActivity</string>
+</resources>
